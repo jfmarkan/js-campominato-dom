@@ -1,0 +1,55 @@
+/* RESET */
+
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* STYLES */
+
+
+main{
+    background-color: #7fffd4;
+}
+
+.my_grid-container{
+    height: 720px;
+    width: 720px;
+}
+
+div.my_cell-one,
+div.my_cell-two,
+div.my_cell-three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000000;
+}
+
+div.my_cell-one{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+
+div.my_cell-two{
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+}
+
+div.my_cell-three{
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+}
+
+.my_selected{
+    background-color: #001432;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+
+.my_bomb{
+    background-color: #ad0f1c;
+    color: #FFFFFF;
+    font-size: 2rem;
+}
