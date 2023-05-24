@@ -39,7 +39,7 @@ function startNewGame(){
                     console.log(i);
                 } else {
                     newCell.classList.add('my_bomb');
-                    alert("Sorry, you've lost! Yo pressed " + userTries.length + " tiles before stepping on the bomb.");
+                    alert("Sorry, you've lost! Yo pressed " + (userTries.length - 1) + " tiles before stepping on the bomb.");
                 }
             });
         gridElement.appendChild(newCell);
