@@ -39,6 +39,7 @@ function startNewGame(){
                     console.log(i);
                 } else {
                     newCell.classList.add('my_bomb');
+                    newCell.innerHTML = "BOMB";
                     alert("Sorry, you've lost! Yo pressed " + (userTries.length - 1) + " tiles before stepping on the bomb.");
                 }
             });
@@ -96,3 +97,7 @@ function generateBombs( minNum, maxNum, elements){
 
     return bombsPlacement;
 }
+
+
+
+
